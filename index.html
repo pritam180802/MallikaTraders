@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mallika Traders | Boys' Clothing in Kolkata</title>
+  <meta name="description" content="Shop premium boys' clothing at Mallika Traders, Kolkata. Quality, comfort, and style for every adventure.">
+  <meta name="keywords" content="boys clothing, kids wear, Kolkata, Mallika Traders, t-shirt, kurta, shorts">
+  <meta name="author" content="Mallika Traders">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/892/892458.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .product-card { transition: box-shadow 0.2s; }
+    .product-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.15); }
+    .product-bg {
+      background-size: cover;
+      background-position: center;
+      min-height: 220px;
+      border-radius: 0.75rem 0.75rem 0 0;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
+      <a href="#" class="flex items-center space-x-2 font-bold text-xl text-rose-600">
+        <span>Mallika Traders</span>
+      </a>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#products" class="hover:text-rose-500">Collection</a>
+        <a href="#about" class="hover:text-rose-500">About</a>
+        <a href="#contact" class="hover:text-rose-500">Contact</a>
+      </nav>
+      <a href="https://wa.me/917811868413" target="_blank" class="bg-green-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-green-600 transition">WhatsApp</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative h-[60vh] flex items-center justify-center bg-gradient-to-br from-rose-100 to-blue-100">
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1619245654814-a9572051b854?q=80&w=1200&auto=format&fit=crop')] bg-cover bg-center opacity-30"></div>
+    <div class="relative z-10 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Boys' Fashion for Every Adventure</h1>
+      <p class="text-lg text-gray-700 mb-6">Handpicked, comfortable, and stylish clothing for boys in Kolkata.</p>
+      <a href="#products" class="bg-rose-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-rose-600 transition">Shop Collection</a>
+    </div>
+  </section>
+
+  <!-- Products (Category Grid) -->
+  <main id="products" class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold text-center mb-10">Shop by Category</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+      <!--
+        ===========================
+        HOW TO ADD A NEW CATEGORY:
+        ===========================
+        1. Copy the entire <a class="product-card ..."> ... </a> block below.
+        2. Paste it just below the last category.
+        3. Change:
+           - The background image URL in style="background-image: url('...')"
+           - The category name and description
+           - The href link (e.g., "newcategory.html")
+        4. Create a new HTML file for that category (copy from an existing category page and edit).
+      -->
+
+      <a href="tshirts.html" class="product-card bg-white rounded-xl shadow group flex flex-col hover:scale-105 transition">
+        <div class="product-bg" style="background-image: url('https://image.hm.com/assets/hm/d0/22/d022893d390b58958573b7ea868e67546b7c070b.jpg?imwidth=2160?auto=format&fit=crop&w=600&q=80');"></div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-semibold text-lg mb-2 text-center">T-Shirts</h3>
+          <p class="text-gray-500 text-sm text-center">Trendy, comfy, and perfect for daily wear.</p>
+        </div>
+      </a>
+      <a href="formalshirts.html" class="product-card bg-white rounded-xl shadow group flex flex-col hover:scale-105 transition">
+        <div class="product-bg" style="background-image: url('https://saadaa.in/cdn/shop/files/134.jpg?v=1729922912?auto=format&fit=crop&w=600&q=80');"></div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-semibold text-lg mb-2 text-center">Formal Shirts</h3>
+          <p class="text-gray-500 text-sm text-center">Smart and crisp for special occasions.</p>
+        </div>
+      </a>
+      <a href="casualshirts.html" class="product-card bg-white rounded-xl shadow group flex flex-col hover:scale-105 transition">
+        <div class="product-bg" style="background-image: url('https://static.cilory.com/681508-thickbox_default/nologo-white-navy-checked-casual-shirt.jpg?auto=format&fit=crop&w=600&q=80');"></div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-semibold text-lg mb-2 text-center">Casual Shirts</h3>
+          <p class="text-gray-500 text-sm text-center">Relaxed fits for outings and play.</p>
+        </div>
+      </a>
+      <a href="jeans.html" class="product-card bg-white rounded-xl shadow group flex flex-col hover:scale-105 transition">
+        <div class="product-bg" style="background-image: url('https://www.realsimple.com/thmb/pylBi8okBliW5e5qvCQFWPQatoc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/types-of-denim-GettyImages-598820544-c87ecea4d6454e4a9184a35226c97735.jpg?auto=format&fit=crop&w=600&q=80');"></div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-semibold text-lg mb-2 text-center">Jeans</h3>
+          <p class="text-gray-500 text-sm text-center">Classic denim for all-day comfort.</p>
+        </div>
+      </a>
+      <a href="casualtrousers.html" class="product-card bg-white rounded-xl shadow group flex flex-col hover:scale-105 transition">
+        <div class="product-bg" style="background-image: url('https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8881403/2024/6/7/0416848e-a95a-4015-b01f-eb0814ed05a81717734143808-DENNISON-Men-Grey-Smart-Tapered-Fit-Casual-Trousers-93617177-1.jpg?auto=format&fit=crop&w=600&q=80');"></div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-semibold text-lg mb-2 text-center">Casual Trousers</h3>
+          <p class="text-gray-500 text-sm text-center">Easygoing style for every day.</p>
+        </div>
+      </a>
+      <a href="formaltrousers.html" class="product-card bg-white rounded-xl shadow group flex flex-col hover:scale-105 transition">
+        <div class="product-bg" style="background-image: url('https://italianvega.com/cdn/shop/products/br1.jpg?v=1680535793&width=1445?auto=format&fit=crop&w=600&q=80');"></div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-semibold text-lg mb-2 text-center">Formal Trousers</h3>
+          <p class="text-gray-500 text-sm text-center">Perfect for school and formal events.</p>
+        </div>
+      </a>
+      <a href="trackpants.html" class="product-card bg-white rounded-xl shadow group flex flex-col hover:scale-105 transition">
+        <div class="product-bg" style="background-image: url('https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/26766100/2024/3/22/f0bf1156-c8d0-476b-82d9-fefa38ef53771711091962396-ADIDAS-Originals-Men-Track-Pants-2451711091961910-1.jpg?auto=format&fit=crop&w=600&q=80');"></div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-semibold text-lg mb-2 text-center">Track Pants</h3>
+          <p class="text-gray-500 text-sm text-center">Sporty and comfortable for active boys.</p>
+        </div>
+      </a>
+      <a href="shorts.html" class="product-card bg-white rounded-xl shadow group flex flex-col hover:scale-105 transition">
+        <div class="product-bg" style="background-image: url('https://nobero.com/cdn/shop/files/1737715608763.webp?v=1737715830?auto=format&fit=crop&w=600&q=80');"></div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-semibold text-lg mb-2 text-center">Shorts</h3>
+          <p class="text-gray-500 text-sm text-center">Cool and breezy for summer fun.</p>
+        </div>
+      </a>
+      <a href="cargos.html" class="product-card bg-white rounded-xl shadow group flex flex-col hover:scale-105 transition">
+        <div class="product-bg" style="background-image: url('https://media-us.landmarkshops.in/cdn-cgi/image/h=730,w=540,q=85,fit=cover/max-new/1000013596505-Green-GREEN-1000013596505_01-2100.jpg?auto=format&fit=crop&w=600&q=80');"></div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-semibold text-lg mb-2 text-center">Cargos</h3>
+          <p class="text-gray-500 text-sm text-center">Rugged and practical with extra pockets.</p>
+        </div>
+      </a>
+      <a href="threefourths.html" class="product-card bg-white rounded-xl shadow group flex flex-col hover:scale-105 transition">
+        <div class="product-bg" style="background-image: url('https://images.meesho.com/images/products/413691603/gey5q_512.webp?auto=format&fit=crop&w=600&q=80');"></div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-semibold text-lg mb-2 text-center">Three Fourths</h3>
+          <p class="text-gray-500 text-sm text-center">Perfect blend of shorts and pants for comfort.</p>
+        </div>
+      </a>
+      <!-- Add more categories by copying the block above -->
+    </div>
+  </main>
+
+  <!-- About / Why Choose Us -->
+  <section id="about" class="bg-white py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold mb-4">Why Mallika Traders?</h2>
+      <div class="grid md:grid-cols-3 gap-8 mt-8">
+        <div>
+          <div class="text-rose-500 text-3xl mb-2">👕</div>
+          <h3 class="font-semibold mb-1">Quality Fabrics</h3>
+          <p class="text-gray-500 text-sm">Every piece is handpicked for comfort and durability.</p>
+        </div>
+        <div>
+          <div class="text-rose-500 text-3xl mb-2">💰</div>
+          <h3 class="font-semibold mb-1">Fair Pricing</h3>
+          <p class="text-gray-500 text-sm">Get the best value for your money, always.</p>
+        </div>
+        <div>
+          <div class="text-rose-500 text-3xl mb-2">🤝</div>
+          <h3 class="font-semibold mb-1">Personal Service</h3>
+          <p class="text-gray-500 text-sm">Chat with us on WhatsApp for any help or custom requests.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Visit -->
+  <section id="contact" class="bg-rose-50 py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold mb-4">Visit or Contact Us</h2>
+      <p class="mb-6 text-gray-600">See our collection in person at Esplanade, Kolkata. Please WhatsApp us before visiting!</p>
+      <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+        <div class="flex-1">
+          <div class="bg-white rounded-lg shadow p-6 mb-4">
+            <div class="mb-2 font-semibold">Address</div>
+            <a href="https://www.google.com/maps/search/?api=1&query=22.503361,88.415333" target="_blank" class="text-rose-600 underline">Esplanade, Kolkata, West Bengal</a>
+          </div>
+        </div>
+        <div class="flex-1">
+          <div class="bg-white rounded-lg shadow p-6 mb-4">
+            <div class="mb-2 font-semibold">Contact</div>
+            <div class="mb-1"><a href="mailto:mallikanaiya441@gmail.com" class="text-gray-700 hover:underline">mallikanaiya441@gmail.com</a></div>
+            <div><a href="https://wa.me/917811868413" target="_blank" class="text-green-600 font-semibold hover:underline">+91 7811868413</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-6 text-center text-sm">
+    &copy; 2025 Mallika Traders. All rights reserved.
+  </footer>
+
+</body>
+</html>
